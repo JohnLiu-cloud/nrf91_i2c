@@ -1,0 +1,8 @@
+
+&i2c1 {
+    compatible = "nordic,nrf-twim";
+    status = "okay";
+    label = "I2C_1";
+    sda-pin = <11>;
+    scl-pin = <12>;   
+};
